@@ -1,0 +1,38 @@
+body {
+    background: #2C2B3D;
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+.page {
+    width: 1083px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 28px;
+}
+
+section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #c2c2c2;
+}
+
+a, h1, footer {
+    color: #FFFFFF;
+}
+
