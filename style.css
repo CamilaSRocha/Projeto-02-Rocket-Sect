@@ -4,11 +4,18 @@ body {
 }
 
 #page {
-    width: auto;
-    margin: 0 99px;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+#page a {
+    text-decoration: none;
+    
 }
 
 nav {
+    width: auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,14 +26,13 @@ ul {
     justify-content: center;
     gap: 64px;
     list-style: none;
-}
 
-ul li a {
-    text-decoration: none;
     font-size: 20px;
 }
 
 main {
+    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +41,7 @@ main {
 }
 
 main section {
+
     text-align: center;
 
     margin-left: 80px;
@@ -47,7 +54,6 @@ section h1 {
 }
 
 section p {
-    width: 604px;
     
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -56,6 +62,7 @@ section p {
 
 section span {
     color: #00BFA6;
+    font-weight: bold;
 }
 
 a, h1, footer {
